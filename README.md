@@ -11,7 +11,8 @@ With this you can see all the code and what is actually doing: some nice simple 
 Python 3.6.5 (but should work on others, but not on Python 2)
 
 ## Usage
-First, get logged in on Instagram web and grab the Cookie and your instagram ID (google some web to find your ID)
+First, get logged in on Instagram web via Firefox or Chrome. Script is automatically detecting instagram session.
+Or you can grab the Cookie and your instagram ID (google some web to find your ID)
 and paste those into the ```settings.py``` file.
 
 The ```COOKIE``` setting must be the Cookie value (the whole string). You can get it with a Chrome extension like EditThisCookie.

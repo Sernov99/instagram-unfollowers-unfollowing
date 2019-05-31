@@ -13,6 +13,11 @@ HEADERS = {
     'cache-control': "no-cache",
 }
 
+#Cookie jar for auto-browser scan
+
+COOKIE_JAR = None
+
+
 BASE_URL = 'https://www.instagram.com/graphql/query/'
 
 FOLLOWING_QUERY_HASH = 'c56ee0ae1f89cdbd1c89e2bc6b8f3d18'
